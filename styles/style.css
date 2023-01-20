@@ -1,0 +1,22 @@
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+.card-btn {
+    color: #3F87F5;
+    border-radius: 24px;
+}
+.card-light-text {
+    color: #848199;
+    line-height: 22.5px;
+}
+.btn-hot {
+    top: -1rem
+}
+.hot-card {
+    animation: transform ease-in 5s;
+}
+.hot-card:hover {
+    transform: translateY(-2rem) scale(1.05);
+}
